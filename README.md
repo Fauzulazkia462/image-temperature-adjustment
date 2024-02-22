@@ -1,7 +1,7 @@
 # image-temperature-adjustment
 
 ## Start-up Apps
-The start-up App is server.js, which will run on port 3000
+The start-up App is server.js, which will run on port 3000, we only need to run nodemon server to run it
 
 ## Route
 Route is located in Route/Route.js
