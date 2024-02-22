@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Image Temperature Adjustment</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- card 1 -->
+        <div class="card">
+            <div class="card-header">
+                <h1 >Image Temperature Adjustment App</h1>
+            </div>
+            <div class="card-body">
+                <input type="file" name="image" id="imageInput" accept="image/jpeg">
+                <label for="temperature">Temperature:</label>
+                <input type="range" name="temperature" id="temperature" min="-100" max="100" value="0" disabled>
+                <output for="temperature">0</output>
+                <button type="submit" id="submitBtn" disabled>Download</button>
+                <div id="preview" class="resizable"></div>
+                <canvas id="canvasPreview" style="display: none;"></canvas>
+            </div>
+        </div>
+        <!-- end of card 1 -->
+
+    </div>
+   
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 80px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    border-radius: 10px;
+}
+
+.card-header, .card-body{
+    margin : 10px;
+}
+
+#preview img, #canvasPreview {
+    max-width: 60%;
+}
+
+.resizable {
+    resize: both;
+    overflow: auto;
+}
